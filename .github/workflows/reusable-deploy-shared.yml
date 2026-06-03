@@ -29,7 +29,7 @@ jobs:
             name: ${{ inputs.package-name }}
 
         - name: Print repo
-          run: echo"Workflow stored in shared-workflow" 
+          run: echo "Workflow stored in shared-workflow" 
         
         - name: Secret Information
           run: echo "Value of secret matches - ${{ secrets.azure-profile == 'Placeholder' }}"
